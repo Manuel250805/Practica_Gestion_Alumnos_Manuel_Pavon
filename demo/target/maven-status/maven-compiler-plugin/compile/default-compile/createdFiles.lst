@@ -1,0 +1,9 @@
+com\example\vista\AlumnoView.class
+com\example\PrimaryController.class
+com\example\SecondaryController.class
+module-info.class
+com\example\App.class
+com\example\interfaz\AlumnoInterfaz.class
+com\example\modelo\Alumno.class
+com\example\modelo\AlumnoModelo.class
+com\example\controlador\AlumnoControlador.class

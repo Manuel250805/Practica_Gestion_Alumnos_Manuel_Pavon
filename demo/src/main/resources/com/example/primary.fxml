@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="762.0" prefWidth="497.0" spacing="20.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PrimaryController">
+   <children>
+      <Label layoutX="-100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Gestor archivos" translateY="-50.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="200.0" layoutY="107.0" text="Nombre:" translateX="-95.0" translateY="-30.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField maxWidth="-Infinity" prefHeight="24.0" prefWidth="100.0" translateY="-70.0" />
+      <Label text="Apellido:" translateX="-95.0" translateY="-70.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField maxWidth="-Infinity" prefHeight="24.0" prefWidth="100.0" translateY="-110.0" />
+      <Label text="Curso:" translateX="-95.0" translateY="-120.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField maxWidth="-Infinity" prefHeight="24.0" prefWidth="100.0" translateY="-160.0" />
+      <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Insertar" translateX="-90.0" translateY="-150.0" />
+      <Button fx:id="primaryButton1" layoutX="129.0" layoutY="179.0" onAction="#switchToSecondary" text="Listar" translateY="-195.0" />
+      <ListView maxWidth="-Infinity" prefHeight="81.0" prefWidth="236.0" translateY="-150.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
