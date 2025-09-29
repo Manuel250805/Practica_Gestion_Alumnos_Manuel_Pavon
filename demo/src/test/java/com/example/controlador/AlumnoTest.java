@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import com.example.interfaz.AlumnoInterfaz;
 import com.example.modelo.Alumno;
 import com.example.modelo.AlumnoModelo;
 
@@ -18,8 +19,8 @@ public class AlumnoTest {
     @BeforeEach
     void setUp() {
         alumno = new Alumno("Manuel", "Pavon", 20);
-        AlumnoModelo modelo = new AlumnoModelo();
-        controlador = new AlumnoControlador(modelo);
+        AlumnoInterfaz interfaz = new AlumnoModelo();
+        controlador = new AlumnoControlador(interfaz);
     }
 
     @Test
